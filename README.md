@@ -2,7 +2,7 @@
 	🚧  Projeto 🚀 Em construção...  🚧
 </h4>
 
-![E-commerce Django](https://github-readme-stats.vercel.app/api?Italo-Carvalho=e-commerce&theme=algolia&show_icons=true)
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
