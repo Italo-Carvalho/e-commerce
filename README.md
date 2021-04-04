@@ -2,7 +2,7 @@
 	🚧  Projeto 🚀 Em construção...  🚧
 </h4>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=dark&show_icons=true)
+![E-commerce Django](https://github-readme-stats.vercel.app/api?Italo-Carvalho=anuraghazra&theme=algolia&show_icons=true)
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
