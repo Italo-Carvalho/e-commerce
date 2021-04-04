@@ -20,6 +20,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # django
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -28,11 +29,14 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # apps externos
     "debug_toolbar",
+    "widget_tweaks",
     # apps
-    "users.apps.UsersConfig",
-    "pages.apps.PagesConfig",
-    "products.apps.ProductsConfig",
+    "users",
+    "pages",
+    "products",
+    "cart",
 ]
+
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -138,3 +142,8 @@ import socket  # noqa
 
 hostname, _, ips = socket.gethostbyname_ex(socket.gethostname())
 INTERNAL_IPS = [ip[:-1] + "1" for ip in ips]
+
+# Cart
+
+CART_SESSION_ID = "cart"
+CART_ITEM_MAX_QUANTITY = 20
