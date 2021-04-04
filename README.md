@@ -2,7 +2,7 @@
 	🚧  Projeto 🚀 Em construção...  🚧
 </h4>
 
-
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=dark&show_icons=true)
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -16,4 +16,4 @@
    Projeto feito com base na playlist E-commerce com django
     <br />
     <a href="https://www.youtube.com/watch?v=NZd386TfzcM&list=PLvS2JoIlSA4BF1BBeYUCRbusX5r8ppWjW&ab_channel=FabioRuicci"><strong>Playlist »</strong></a>
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=dark&show_icons=true)
+
