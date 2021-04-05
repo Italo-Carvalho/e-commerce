@@ -30,11 +30,14 @@ INSTALLED_APPS = [
     # apps externos
     "debug_toolbar",
     "widget_tweaks",
+    "crispy_forms",
+    "localflavor",
     # apps
     "users",
     "pages",
     "products",
     "cart",
+    "orders",
 ]
 
 
@@ -83,6 +86,12 @@ DATABASES = {
         "PORT": 5432,
     }
 }
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": BASE_DIR / "db.sqlite3",
+#     }
+# }
 
 
 # Password validation
@@ -147,3 +156,7 @@ INTERNAL_IPS = [ip[:-1] + "1" for ip in ips]
 
 CART_SESSION_ID = "cart"
 CART_ITEM_MAX_QUANTITY = 20
+
+
+# crispy
+CRISPY_TEMPLATE_PACK = "bootstrap4"

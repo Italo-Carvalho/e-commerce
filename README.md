@@ -17,3 +17,5 @@
     <br />
     <a href="https://www.youtube.com/watch?v=NZd386TfzcM&list=PLvS2JoIlSA4BF1BBeYUCRbusX5r8ppWjW&ab_channel=FabioRuicci"><strong>Playlist »</strong></a>
 
+
+python manage.py loaddata products
